@@ -17,23 +17,23 @@ public class HspMakinesi {
         islem = input.nextInt();
 
         switch (islem) {
-            case 1 -> {
+            case 1 : {
                 sonuc = sayi1 + sayi2;
                 System.out.print("Seçilen Ýþlem:1-Toplama\n----------\nÝþlemin Sonucu:" + sonuc);
             }
-            case 2 -> {
+            case 2 : {
                 sonuc = sayi1 - sayi2;
                 System.out.print("Seçilen Ýþlem:2-Çýkarma\n----------\nÝþlemin Sonucu:" + sonuc);
             }
-            case 3 -> {
+            case 3 : {
                 sonuc = sayi1 * sayi2;
                 System.out.print("Seçilen Ýþlem:3-Çarpma\n----------\nÝþlemin Sonucu:" + sonuc);
             }
-            case 4 -> {
+            case 4 : {
                 sonuc = sayi1 / sayi2;
                 System.out.print("Seçilen Ýþlem:4-Bölme\n----------\nÝþlemin Sonucu:" + sonuc);
             }
-            default -> System.out.print("Seçilen Ýþlem:Böyle Bir Ýþlem Bulunamadý.\nHatalý Giriþ Yapýldý!");
+            default : System.out.print("Seçilen Ýþlem:Böyle Bir Ýþlem Bulunamadý.\nHatalý Giriþ Yapýldý!");
         }
 
     }
