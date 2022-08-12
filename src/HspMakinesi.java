@@ -6,34 +6,34 @@ public class HspMakinesi {
         int sayi1, sayi2, islem, sonuc = 0;
 
         Scanner input = new Scanner(System.in);
-        System.out.print("1. Sayýyý Giriniz:");
+        System.out.print("1. SayÄ±yÄ± Giriniz:");
         sayi1 = input.nextInt();
-        System.out.print("2. Sayýyý Giriniz:");
+        System.out.print("2. SayÄ±yÄ± Giriniz:");
         sayi2 = input.nextInt();
 
-        System.out.println("Yapýlacak Ýþlemi Seçiniz:");
-        System.out.println("1-Toplama\n----------\n2-Çýkarma\n----------\n3-Çarpma\n----------\n4-Bölme\n----------");
+        System.out.println("YapÄ±lacak Ä°ÅŸlemi SeÃ§iniz:");
+        System.out.println("1-Toplama\n----------\n2-Ã‡Ä±karma\n----------\n3-Ã‡arpma\n----------\n4-BÃ¶lme\n----------");
 
         islem = input.nextInt();
 
         switch (islem) {
             case 1 : {
                 sonuc = sayi1 + sayi2;
-                System.out.print("Seçilen Ýþlem:1-Toplama\n----------\nÝþlemin Sonucu:" + sonuc);
+                System.out.print("SeÃ§ilen Ä°ÅŸlem:1-Toplama\n----------\nÄ°ÅŸlemin Sonucu:" + sonuc);
             }
             case 2 : {
                 sonuc = sayi1 - sayi2;
-                System.out.print("Seçilen Ýþlem:2-Çýkarma\n----------\nÝþlemin Sonucu:" + sonuc);
+                System.out.print("SeÃ§ilen Ä°ÅŸlem:2-Ã‡Ä±karma\n----------\nÄ°ÅŸlemin Sonucu:" + sonuc);
             }
             case 3 : {
                 sonuc = sayi1 * sayi2;
-                System.out.print("Seçilen Ýþlem:3-Çarpma\n----------\nÝþlemin Sonucu:" + sonuc);
+                System.out.print("SeÃ§ilen Ä°ÅŸlem:3-Ã‡arpma\n----------\nÄ°ÅŸlemin Sonucu:" + sonuc);
             }
             case 4 : {
                 sonuc = sayi1 / sayi2;
-                System.out.print("Seçilen Ýþlem:4-Bölme\n----------\nÝþlemin Sonucu:" + sonuc);
+                System.out.print("SeÃ§ilen Ä°ÅŸlem:4-BÃ¶lme\n----------\nÄ°ÅŸlemin Sonucu:" + sonuc);
             }
-            default : System.out.print("Seçilen Ýþlem:Böyle Bir Ýþlem Bulunamadý.\nHatalý Giriþ Yapýldý!");
+            default : System.out.print("SeÃ§ilen Ä°ÅŸlem:BÃ¶yle Bir Ä°ÅŸlem BulunamadÄ±.\nHatalÄ± GiriÅŸ YapÄ±ldÄ±!");
         }
 
     }
